@@ -8,7 +8,7 @@ My videos are available at
 
 [![track1 - lake](https://i.ytimg.com/vi/5q5TRMQNtVM/1.jpg?time=1523811860978)](https://www.youtube.com/watch?v=5q5TRMQNtVM)
 
-[![track2 - jungle]](https://i.ytimg.com/vi/6vMxVQRcevc/1.jpg?time=1523811686541)](https://youtu.be/6vMxVQRcevc)
+[![track2 - jungle](https://i.ytimg.com/vi/6vMxVQRcevc/1.jpg?time=1523811686541)](https://youtu.be/6vMxVQRcevc)
 
 The goals / steps of this project are the following:
 * Use the simulator to collect data of good driving behavior
@@ -36,14 +36,14 @@ The goals / steps of this project are the following:
 [track1_recovery_6]: ./report/track1_recovery_6.jpg "Track1 recovery 6"
 [track1_recovery_7]: ./report/track1_recovery_7.jpg "Track1 recovery 7"
 [track1_recovery_8]: ./report/track1_recovery_8.jpg "Track1 recovery 8"
-[track2_recovery_1]: ./report/track2_recovery_1.jpg "Track2 recovery 1"
-[track2_recovery_2]: ./report/track2_recovery_2.jpg "Track2 recovery 2"
-[track2_recovery_3]: ./report/track2_recovery_3.jpg "Track2 recovery 3"
-[track2_recovery_4]: ./report/track2_recovery_4.jpg "Track2 recovery 4"
-[track2_recovery_5]: ./report/track2_recovery_5.jpg "Track2 recovery 5"
-[track2_recovery_6]: ./report/track2_recovery_6.jpg "Track2 recovery 6"
-[track2_recovery_7]: ./report/track2_recovery_7.jpg "Track2 recovery 7"
-[track2_recovery_8]: ./report/track2_recovery_8.jpg "Track2 recovery 8"
+[track2_recovery_1]: ./report/track2_tricky_1.jpg "Track2 recovery 1"
+[track2_recovery_2]: ./report/track2_tricky_2.jpg "Track2 recovery 2"
+[track2_recovery_3]: ./report/track2_tricky_3.jpg "Track2 recovery 3"
+[track2_recovery_4]: ./report/track2_tricky_4.jpg "Track2 recovery 4"
+[track2_recovery_5]: ./report/track2_tricky_5.jpg "Track2 recovery 5"
+[track2_recovery_6]: ./report/track2_tricky_6.jpg "Track2 recovery 6"
+[track2_recovery_7]: ./report/track2_tricky_7.jpg "Track2 recovery 7"
+[track2_recovery_8]: ./report/track2_tricky_8.jpg "Track2 recovery 8"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
