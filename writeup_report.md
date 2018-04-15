@@ -219,6 +219,15 @@ I finally randomly shuffled the data set and put 20% of the data into a validati
 
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 20 as evidenced by the validation loss converging after 20. I used an adam optimizer.
 
+
+## Notes on Track 2
+
+I was stuck on track 2 for a very long time, until it struck me that i can change the speed in drive.py! Hence i lowered the speed from max of 30 to 15. Viola! My model has been working very well, tracking the center lane right from the start, just that it was going too fast and the model was unable to react fast enough when flying down slopes, causing it to lose track of the center lane, hence it was unable to find its way back to the center of the lane.
+
+When running model_hard.h5 on track2, please change speed (line 42) in drive.py to 15 instead of 30.
+
+In future, in order to train a model that works well even when going at 30 mph, the model will need to remember what it has previously seen in order to remember that it flew past the center lane towards the right / left and thus it needs to turn left / right in order to find back the center lane. The current model is only able to output steering angles given what it currently sees through the cameras, and if it does not see the center lane or side lane markings, it would have no other information to help it steer correctly. A recurrent architecture might be suitable for such a task.
+
 ## Videos
 
 My videos are available at 
