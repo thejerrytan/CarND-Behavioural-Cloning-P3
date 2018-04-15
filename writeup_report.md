@@ -196,7 +196,11 @@ To augment the data sat, I also flipped images and angles thinking that this wou
 
 I also used the left and right cameras to teach the car how to drive towards the center lane by adding a correction factor of 0.2 (found to work well empirically) to the steering angle.
 
-I also borrowed [naokishibuya](https://github.com/naokishibuya/car-behavioral-cloning) suggestion to translate images horizontally by a random amt of pixels and multiply it by 0.002 and add it to the steering angle. This can help the model to follow curves.
+I also borrowed [naokishibuya](https://github.com/naokishibuya/car-behavioral-cloning) suggestion to translate images horizontally by a random amt of pixels and multiply it by 0.002 and add it to the steering angle. This can help the model to follow curves. Example of the above center lane driving images translated:
+
+![alt text][track1_translated]
+![alt text][track2_translated]
+
 
 After the collection process, I had 10,766 number of data points for track1 and 4237 for track2.
 
