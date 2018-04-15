@@ -125,8 +125,7 @@ def main():
     validation_generator = generator(validation_samples, batch_size=32)
 
     # Compile and train model
-    # if os.path.isfile(MODEL_FILENAME):
-    if False:
+    if os.path.isfile(MODEL_FILENAME):
         model = load_model(MODEL_FILENAME)
     else:
         model = Sequential()
