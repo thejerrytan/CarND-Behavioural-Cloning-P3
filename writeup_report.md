@@ -6,8 +6,9 @@
 
 My videos are available at 
 
-[track1 - lake](https://www.youtube.com/watch?v=5q5TRMQNtVM)
-[track2 - jungle](https://youtu.be/6vMxVQRcevc)
+[![track1 - lake](https://i.ytimg.com/vi/5q5TRMQNtVM/1.jpg?time=1523811860978)](https://www.youtube.com/watch?v=5q5TRMQNtVM)
+
+[![track2 - jungle]](https://i.ytimg.com/vi/6vMxVQRcevc/1.jpg?time=1523811686541)](https://youtu.be/6vMxVQRcevc)
 
 The goals / steps of this project are the following:
 * Use the simulator to collect data of good driving behavior
@@ -21,8 +22,8 @@ The goals / steps of this project are the following:
 
 [track1_distribution]: ./report/track1_distribution.png "Track1 Data Distribution Histogram"
 [track2_distribution]: ./report/track2_distribution.png "Track2 Data Distribution Histogram"
-[track1_normal]: ./report/track1_normal "Track1 normal"
-[track1_translated]: ./report/track1_translated "Track1 translated"
+[track1_normal]: ./report/track1_normal.jpg "Track1 normal"
+[track1_translated]: ./report/track1_translated.jpg "Track1 translated"
 [track1_flipped]: ./report/track1_flipped.jpg "Track1 flipped"
 [track2_normal]: ./report/track2_normal.jpg "Track2 normal"
 [track2_translated]: ./report/track2_translated.jpg "Track2 translated image"
@@ -35,14 +36,14 @@ The goals / steps of this project are the following:
 [track1_recovery_6]: ./report/track1_recovery_6.jpg "Track1 recovery 6"
 [track1_recovery_7]: ./report/track1_recovery_7.jpg "Track1 recovery 7"
 [track1_recovery_8]: ./report/track1_recovery_8.jpg "Track1 recovery 8"
-[track2_recovery_1]: ./report/track2_recovery_1.jpg "Track1 recovery 1"
-[track2_recovery_2]: ./report/track2_recovery_2.jpg "Track1 recovery 2"
-[track2_recovery_3]: ./report/track2_recovery_3.jpg "Track1 recovery 3"
-[track2_recovery_4]: ./report/track2_recovery_4.jpg "Track1 recovery 4"
-[track2_recovery_5]: ./report/track2_recovery_5.jpg "Track1 recovery 5"
-[track2_recovery_6]: ./report/track2_recovery_6.jpg "Track1 recovery 6"
-[track2_recovery_7]: ./report/track2_recovery_7.jpg "Track1 recovery 7"
-[track2_recovery_8]: ./report/track2_recovery_8.jpg "Track1 recovery 8"
+[track2_recovery_1]: ./report/track2_recovery_1.jpg "Track2 recovery 1"
+[track2_recovery_2]: ./report/track2_recovery_2.jpg "Track2 recovery 2"
+[track2_recovery_3]: ./report/track2_recovery_3.jpg "Track2 recovery 3"
+[track2_recovery_4]: ./report/track2_recovery_4.jpg "Track2 recovery 4"
+[track2_recovery_5]: ./report/track2_recovery_5.jpg "Track2 recovery 5"
+[track2_recovery_6]: ./report/track2_recovery_6.jpg "Track2 recovery 6"
+[track2_recovery_7]: ./report/track2_recovery_7.jpg "Track2 recovery 7"
+[track2_recovery_8]: ./report/track2_recovery_8.jpg "Track2 recovery 8"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
@@ -218,5 +219,5 @@ I used this training data for training the model. The validation set helped dete
 
 My videos are available at 
 
-[track1 - lake](https://www.youtube.com/watch?v=5q5TRMQNtVM)
-[track2 - jungle](https://youtu.be/6vMxVQRcevc)
+- [track1 - lake](https://www.youtube.com/watch?v=5q5TRMQNtVM)
+- [track2 - jungle](https://youtu.be/6vMxVQRcevc)
