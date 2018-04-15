@@ -74,7 +74,7 @@ python drive.py model_hard.h5
 
 #### 3. Submission code is usable and readable
 
-The train.py file contains the code for training and saving the convolution neural network. The file shows the pipeline I used for training and validating the model, and it contains comments to explain how the code works.
+The model.py file contains the code for training and saving the convolution neural network. The file shows the pipeline I used for training and validating the model, and it contains comments to explain how the code works.
 
 ### Model Architecture and Training Strategy
 
@@ -110,7 +110,7 @@ The model was trained and validated on different data sets to ensure that the mo
 
 #### 3. Model parameter tuning
 
-The model used an adam optimizer, with a custom learning rate of 0.0001. I decided to use a lower learning rate because the training and validation loss was making big jumps in different directions after every epoch. I was able to reach a lower validation loss of 0.83 versus 1.3 before making the change. As a result, of the lower learning rate, i increased the number of epochs by a factor of 10, to 50, and realized the validation loss converges around 25, hence my final number of epochs is 25.
+The model used an adam optimizer, with a custom learning rate of 0.0001. I decided to use a lower learning rate because the training and validation loss was making big jumps in different directions after every epoch. I was able to reach a lower validation loss of 0.83 versus 1.3 before making the change. As a result, of the lower learning rate, i increased the number of epochs by a factor of 10, to 50, and realized the validation loss converges around 20, hence my final number of epochs is 20.
 
 #### 4. Appropriate training data
 
@@ -217,7 +217,7 @@ Data augmentation
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 25 as evidenced by the validation loss converging after 25. I used an adam optimizer.
+I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 20 as evidenced by the validation loss converging after 20. I used an adam optimizer.
 
 ## Videos
 
